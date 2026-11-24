@@ -1,0 +1,59 @@
+{
+ "by_carrier": {
+  "BRIGHTLINE": {
+   "drifted": 0,
+   "err_normaliser": 0,
+   "err_normaliser_drifted": 0,
+   "err_passthrough": 0,
+   "err_per_carrier_table": 0,
+   "n": 8803,
+   "parse_failures": 0,
+   "unknown_normaliser": 0
+  },
+  "COBALT": {
+   "drifted": 0,
+   "err_normaliser": 0,
+   "err_normaliser_drifted": 0,
+   "err_passthrough": 3719,
+   "err_per_carrier_table": 2962,
+   "n": 11719,
+   "parse_failures": 0,
+   "unknown_normaliser": 0
+  },
+  "MERIDIAN": {
+   "drifted": 775,
+   "err_normaliser": 771,
+   "err_normaliser_drifted": 771,
+   "err_passthrough": 10818,
+   "err_per_carrier_table": 771,
+   "n": 10818,
+   "parse_failures": 0,
+   "unknown_normaliser": 771
+  }
+ },
+ "code_hash": "286e4d6f283d8a6a",
+ "config_hash": "68cfaf93b7280fd9",
+ "confusion": {
+  "MERIDIAN:ARRIVED_DEST_TERMINAL->UNKNOWN": 101,
+  "MERIDIAN:ARRIVED_HUB->UNKNOWN": 115,
+  "MERIDIAN:DELAY_REPORTED->UNKNOWN": 55,
+  "MERIDIAN:DELIVERED->UNKNOWN": 102,
+  "MERIDIAN:DELIVERY_ATTEMPT_FAILED->UNKNOWN": 4,
+  "MERIDIAN:DEPARTED_HUB->UNKNOWN": 117,
+  "MERIDIAN:DEPARTED_ORIGIN->UNKNOWN": 87,
+  "MERIDIAN:OUT_FOR_DELIVERY->UNKNOWN": 90,
+  "MERIDIAN:PICKED_UP->UNKNOWN": 100
+ },
+ "experiment": "E4",
+ "seed": 0,
+ "total": {
+  "drifted": 775,
+  "err_normaliser": 771,
+  "err_normaliser_drifted": 771,
+  "err_passthrough": 14537,
+  "err_per_carrier_table": 3733,
+  "n": 31340,
+  "parse_failures": 0,
+  "unknown_normaliser": 771
+ }
+}

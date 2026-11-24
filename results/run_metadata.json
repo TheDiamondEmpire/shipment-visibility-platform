@@ -1,0 +1,43 @@
+{
+ "code_hash": "286e4d6f283d8a6a",
+ "completed_in_single_uninterrupted_invocation": true,
+ "config_hash": "68cfaf93b7280fd9",
+ "finished_at": "2026-10-23T16:46:06Z",
+ "hardware": {
+  "logical_cores": 8,
+  "physical_cores": 4,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD",
+  "python": "3.12.13",
+  "total_memory_gb": 28.0,
+  "workers_used": 2
+ },
+ "invocation_id": "50f48e4f9b5d",
+ "load_samples": [
+  {
+   "at": "start",
+   "available_memory_gb": 5.41,
+   "cpu_percent_all_cores": 90.4
+  },
+  {
+   "at": "after_stage_a",
+   "available_memory_gb": 5.21,
+   "cpu_percent_all_cores": 90.1
+  },
+  {
+   "at": "after_stage_b",
+   "available_memory_gb": 5.31,
+   "cpu_percent_all_cores": 86.7
+  }
+ ],
+ "protocol": "v0.2",
+ "quick_mode": false,
+ "started_at": "2026-10-23T16:25:46Z",
+ "status": "complete",
+ "unit_retries": 0,
+ "units_failed": 0,
+ "units_run": 50,
+ "units_skipped_already_done": 0,
+ "uv_lock_sha256_16": "ae41fd6685afe285",
+ "wall_seconds": 1220.0
+}
